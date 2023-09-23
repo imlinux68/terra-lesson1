@@ -17,3 +17,38 @@ resource "aws_subnet" "my_vpc_sub1" {
   cidr_block = "10.0.1.0/24"
   availability_zone = "us-west-2a"
 }
+
+output "my_vpc_out" {
+  value = aws_vpc.my_vpc.id
+}
+
+
+output "my_vpc_sub1_out" {
+  value = aws_subnet.my_vpc_sub1.id
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
