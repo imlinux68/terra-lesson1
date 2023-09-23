@@ -15,4 +15,5 @@ resource "aws_subnet" "my_vpc_sub1" {
     "Name" = "My_vpc_sub1"
   }
   cidr_block = "10.0.1.0/24"
+  availability_zone = "us-west-2a"
 }
